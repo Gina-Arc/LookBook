@@ -1,26 +1,43 @@
 body {
-    font-family: Arial, sans-serif;
+    
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
     background-color: #ffffff;
     margin: 0;
     padding: 20px;
+    
 }
-
+nav{
+    width: 100% !important;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    background-color: white;
+    
+} 
+.navbar{
+    width: 100%;
+}
 .container {
     max-width: 600px;
     margin: auto;
-    background: white;
+    background: rgb(165, 100, 70);
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 h1{
     text-align: center;
+    color: rgb(146, 34, 34);
 }
 h2 {
     text-align: center;
+    color: #ffffff !important;
 }
 p{
     text-align: center;
+    color: #ccc;
 }
 form {
     display: flex;
@@ -32,19 +49,21 @@ input[type="text"] {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    color: #181717;
 }
 
 button {
-    padding: 10px 15px;
-    border: none;
-    background-color: #007bff;
+    padding: 10px 20px;
+    background-color: #5f3333;
     color: white;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
+    border: none;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #442121;
+    border-radius: 10px;
 }
 
 #bookResults {
@@ -58,26 +77,25 @@ button:hover {
     border-radius: 5px;
 }
 .book img {
-    max-width: 100px; /* Ajusta el tamaño de la imagen */
+    max-width: 100px;
     margin-right: 10px;
 }
 
 .book {
     display: flex;
-    align-items: center; /* Alinear verticalmente */
-}
-.navbar {
-    background-color: rgb(219, 212, 212) !important; /* Asegura que el fondo sea blanco */
+    align-items: center; 
 }
 
+
 .navbar .nav-link {
-    color: black !important; /* Asegura que el texto sea negro */
+    color: black !important; 
+
 }
 
 .navbar .nav-link:hover {
-    color: #007bff; /* Cambia el color del texto al pasar el mouse (opcional) */
+    color: #bdc9d6; 
 }
 
 .navbar-brand {
-    color: black !important; /* Asegura que el texto de la marca sea negro */
+    color: rgb(163, 18, 18) !important; 
 }
